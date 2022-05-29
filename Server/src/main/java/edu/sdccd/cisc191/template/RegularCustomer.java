@@ -1,3 +1,4 @@
+package edu.sdccd.cisc191.template;
 import java.util.*;
 //6.0 Interfaces
 // 5.0 Inheritance, Polymorphism, Abstract Classes
@@ -32,6 +33,9 @@ public class RegularCustomer extends Customer implements CustomerType // 5.0 Inh
         customers.add(p);
     }
 
+    public String getAge() {return this.age;}
+
+    public String getOccupation() {return this.occupation;}
 
     public String getName(){
         return this.name;

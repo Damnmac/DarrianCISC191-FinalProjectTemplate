@@ -1,4 +1,4 @@
-
+package edu.sdccd.cisc191.template;
     public class LinkedList <T>
     {
         Node<T> head;

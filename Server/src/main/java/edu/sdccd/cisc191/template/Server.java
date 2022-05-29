@@ -1,8 +1,9 @@
-import java.io.*; // 1.0 Java Bbasics
+package edu.sdccd.cisc191.template;
+import java.io.*; // 1.0 Java Basics
 import java.util.Scanner;
 import java.util.function.DoubleFunction;
 
-public class Main
+public class Server
 {
     public static void main(String[] args)
     {
@@ -63,7 +64,7 @@ public class Main
                int num;
                while(j < list.length)
                {
-                  System.out.print("How many of " + list[j].getSymbol());
+                  System.out.print("How many of " + list[j].getSymbol() +"  ");
                   num = s.nextInt();
                   RegularCustomer.customers.get(i).stocks[j][0] = num;
                   j++;
