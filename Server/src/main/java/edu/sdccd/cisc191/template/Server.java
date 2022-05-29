@@ -54,6 +54,7 @@ public class Server
             moreToAdd = s.nextLine();
         }
         int i = 0;
+
         while(i < RegularCustomer.getCustomerCount())
         {
             System.out.println("Buy Stocks for " + RegularCustomer.customers.get(i).name + "?");
@@ -75,7 +76,6 @@ public class Server
         }
 
         System.out.println("\n\n\n\nEnd of Day Report\n\n");
-
 
 
         for(i = 0; i < RegularCustomer.getCustomerCount(); i++)
